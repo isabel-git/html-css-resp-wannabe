@@ -77,15 +77,23 @@ img {
 
   .row{
     width: 80%;
-    /* debug 
+    /* debug */
     background: red;
     /* fine debug */
-    margin-bottom: 50px;
+    font-size: 5vh;
   }
 
-  #lezioni .row img {
-    width: 100%;
-    height: auto;
+  img{
+    height: 100px;
+  }
+
+  /* font dei titoli */
+  h1{
+    font-size: 10vh;
+  }
+
+  h3{
+    font-size: 6vh;
   }
 
   /* regole lezioni */
@@ -93,7 +101,75 @@ img {
   #lezioni .row>.right {
     float: none;
     width: 100%;
+    margin-bottom: 60px;
+  }
+
+  #lezioni .row img {
+    width: 100px;
+    height: auto;
+  }
+
+  /* regole blocco steps */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  /* regole perche */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    float: none;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  #why .row img {
+    padding: 3px;
+  }
+}
+
+/* bonus */
+@media screen and (min-width: 420px) and (max-width: 799px){
+
+  .row{
+    width: 100%;
+    /* debug */
+    background: blue;
+    /* fine debug */
+    font-size: 5vh;
+  }
+
+  img{
+    height: 200px;
+  }
+
+  /* font dei titoli */
+  h1{
+    font-size: 12vh;
+  }
+
+  h3{
+    font-size: 8vh;
+  }
+
+  /* regole lezioni */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    width: 100%;
+    /* debug
+    border: 1px solid black;
+    /* fine debug */
     margin-bottom: 100px;
+  }
+
+  #lezioni .row img {
+    width: 200px;
+    height: auto;
   }
 
   /* regole blocco steps */
@@ -105,20 +181,7 @@ img {
     margin-bottom: 100px;
   }
 
-  /* regole perche */
-  #why .row>.first,
-  #why .row>.second,
-  #why .row>.third {
-    float: none;
-    width: 100%;
-    margin-bottom: 100px;
-  }
-
   #why .row img {
-    padding: 3px;
-    height: 200px;
+    padding: 9px;
   }
-
-
-
 }
