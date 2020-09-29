@@ -73,3 +73,52 @@ img {
 }
 
 /* esercizio */
+@media screen and (max-width: 419px) {
+
+  .row{
+    width: 80%;
+    /* debug 
+    background: red;
+    /* fine debug */
+    margin-bottom: 50px;
+  }
+
+  #lezioni .row img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* regole lezioni */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  /* regole blocco steps */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  /* regole perche */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    float: none;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  #why .row img {
+    padding: 3px;
+    height: 200px;
+  }
+
+
+
+}
